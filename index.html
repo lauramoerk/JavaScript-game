@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <header></header>
+  <main>
+    <h1>Gæt et nummer</h1>
+
+    <p class="description">Vi har valgt et vilkårligt nummer mellem 1 og 100. Se, om du kan gætte det på under 10 forsøg. Vi fortæller dig, om dit gæt er for højt eller lavt.</p>
+
+    <div class="form">
+      <label for="guessField">Skriv dit gæt her: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField" >
+     <div> <input type="submit" value="Send svar" class="guessSubmit" ></div>
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+</main>
+<footer>
+<p> A DMJX Student Project</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
