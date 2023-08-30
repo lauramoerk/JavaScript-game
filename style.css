@@ -203,6 +203,9 @@ text-transform: uppercase;
     transform: scale(0.9); 
   }
 
+  .guessField{
+    color: var(--white);
+  }
   footer{
     display: flex;
     justify-content: center;
