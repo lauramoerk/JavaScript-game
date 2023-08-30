@@ -54,7 +54,7 @@ function setGameOver() {
   guessSubmit.disabled = true;
   resetButton = document.createElement('button');
   resetButton.textContent = 'Nyt spil';
-  document.body.appendChild(resetButton);
+  document.querySelector('main').appendChild(resetButton);
   resetButton.addEventListener('click', resetGame);
 }
 
