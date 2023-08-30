@@ -53,7 +53,7 @@ function setGameOver() {
   guessField.disabled = true;
   guessSubmit.disabled = true;
   resetButton = document.createElement('button');
-  resetButton.textContent = 'Nyt spil';
+  resetButton.textContent = 'SPIL IGEN';
   document.querySelector('main').appendChild(resetButton);
   resetButton.addEventListener('click', resetGame);
 }

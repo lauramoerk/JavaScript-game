@@ -222,6 +222,9 @@ text-transform: uppercase;
     justify-self: center;
     align-self:center;
     margin-top: 0;
+background-color: var(--white);
+color: var(--black);
+
   }
 
   .formflex{
