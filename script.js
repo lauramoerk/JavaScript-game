@@ -20,7 +20,7 @@ function checkGuess() {
 
   if (userGuess === randomNumber) {
     lastResult.textContent = 'Tillykke, dit gæt var rigtigt!';
-    lastResult.style.backgroundColor = 'green';
+    lastResult.style.backgroundColor = 'var(--orange)';
     lowOrHi.textContent = '';
     setGameOver();
   } else if (guessCount === 10) {
