@@ -8,19 +8,19 @@
 }
 
 
+
   body {
     display: flex; 
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: #000;
     overflow: hidden;
     background-color: var(--black);
   overflow: hidden;
   }
 
-
+/* GLOW ANIMATION*/
 .glowing {
   position: relative;
   min-width: 700px;
@@ -115,6 +115,7 @@
   }
 }
   
+/* FLEX AND STYLING*/
   main{
     display: flex;
     flex-direction: column;
@@ -132,17 +133,11 @@
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-/*     background-image: url(img/screenshot-1030-3.jpg);
-    background: linear-gradient(60deg, red, yellow, red, yellow, red); */
   color: var(--white);
-    /* -webkit-text-stroke: 2px var(--black);  */
+ 
     margin-bottom: 20px;
 text-align: center;
   }
-/* 
-  .texteffect{background-clip: text;
-    -webkit-background-clip: text;
-    color: rgba(0, 0, 0, 0.2);} */
 
   .description{
     max-width: 500px;
@@ -197,14 +192,16 @@ text-transform: uppercase;
     padding: 5px;
     border: none;
     align-items: center;
+    margin-top: 18px;
   }
 
   .guessSubmit:hover{
     transform: scale(0.9); 
   }
 
-  .guessField{
+  label{
     color: var(--white);
+    text-transform: uppercase;
   }
   footer{
     display: flex;
@@ -230,6 +227,11 @@ gap: 10px;
 flex-wrap: wrap;
   }
 
+  .labelandimput{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
 
   
   @media only screen and (min-width: 600px) {
