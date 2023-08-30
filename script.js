@@ -70,6 +70,6 @@ function resetGame() {
   guessSubmit.disabled = false;
   guessField.value = '';
   guessField.focus();
-  lastResult.style.backgroundColor = 'var(--orange)';
+  lastResult.style.backgroundColor = 'var(--black)';
   randomNumber = Math.floor(Math.random() * 100) + 1;
 }
