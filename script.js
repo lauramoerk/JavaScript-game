@@ -29,7 +29,7 @@ function checkGuess() {
     setGameOver();
   } else {
     lastResult.textContent = 'Forkert!';
-    lastResult.style.color = 'red';
+    lastResult.style.color = 'var(--white)';
     lastResult.style.fontWeight = '600';
 
     if(userGuess < randomNumber) {

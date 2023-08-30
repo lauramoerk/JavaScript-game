@@ -173,22 +173,22 @@ text-transform: uppercase;
 
   .form input[type="number"] {
     width: 200px;
-    background-color: var(--orange);
+    background-color: var(--white);
     padding: 5px;
   }
 
   .form input[type="number"]:focus{
-    border-color: aliceblue;
+    border-color: var(--white);
   }
 
   .lastResult {
-    color: black;
+    color: var(--white);
     padding: 3px;
   }
 
   .guessSubmit{
     background-color: var(--black);
-    color: var(--orange);
+    color: var(--white);
     text-transform: uppercase;
     font-weight: bolder;
     padding: 5px;
