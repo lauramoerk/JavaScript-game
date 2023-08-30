@@ -85,16 +85,18 @@ text-transform: uppercase;
   }
 
   .guessSubmit{
-    margin-top: 10px;
-    background-color: var(--orange);
-    color: white;
+    background-color: var(--black);
+    color: var(--orange);
     text-transform: uppercase;
     font-weight: bolder;
     padding: 5px;
     border: none;
-    box-shadow: 0px 0px 30px 2px #E07B00;
+    align-items: center;
   }
 
+  .guessSubmit:hover{
+    transform: scale(1.2); 
+  }
   footer{
     display: flex;
     justify-content: center;
@@ -109,6 +111,13 @@ text-transform: uppercase;
     justify-self: center;
     align-self:center;
     margin-top: 0;
+  }
+
+  .formflex{
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 10px;
   }
 
 

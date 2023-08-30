@@ -24,7 +24,7 @@ function checkGuess() {
     lowOrHi.textContent = '';
     setGameOver();
   } else if (guessCount === 10) {
-    lastResult.textContent = '!!!GAME OVER!!!';
+    lastResult.textContent = ':( du har tabt spillet - vil du prøve igen?';
     lowOrHi.textContent = '';
     setGameOver();
   } else {
@@ -53,7 +53,7 @@ function setGameOver() {
   guessField.disabled = true;
   guessSubmit.disabled = true;
   resetButton = document.createElement('button');
-  resetButton.textContent = 'Start new game';
+  resetButton.textContent = 'Nyt spil';
   document.body.appendChild(resetButton);
   resetButton.addEventListener('click', resetGame);
 }
@@ -70,6 +70,6 @@ function resetGame() {
   guessSubmit.disabled = false;
   guessField.value = '';
   guessField.focus();
-  lastResult.style.backgroundColor = 'black';
+  lastResult.style.backgroundColor = 'var(--orange)';
   randomNumber = Math.floor(Math.random() * 100) + 1;
 }
