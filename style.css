@@ -147,6 +147,7 @@ text-align: center;
   .description{
     max-width: 500px;
     align-self: center;
+    color: var(--white);
   }
   
   .form{
@@ -180,6 +181,7 @@ text-transform: uppercase;
 
   .form input[type="number"]:focus{
     border-color: var(--white);
+    color: var(--white);
   }
 
   .lastResult {
