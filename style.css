@@ -190,7 +190,6 @@ text-transform: uppercase;
   .guessSubmit{
     background-color: var(--black);
     color: var(--white);
-    border: 1px solid var(--white);
     text-transform: uppercase;
     font-weight: bolder;
     padding: 5px;
@@ -233,8 +232,8 @@ color: var(--black);
     display: flex;
     align-items: center;
 justify-content: center;
-gap: 10px;
 flex-wrap: wrap;
+gap: 5px;
   }
 
   .labelandimput{
