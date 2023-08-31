@@ -179,7 +179,7 @@ text-transform: uppercase;
 
   .form input[type="number"]:focus{
     border-color: var(--white);
-    color: var(--white);
+    color: var(--black);
   }
 
   .lastResult {
@@ -190,6 +190,7 @@ text-transform: uppercase;
   .guessSubmit{
     background-color: var(--black);
     color: var(--white);
+    border: 1px solid var(--white);
     text-transform: uppercase;
     font-weight: bolder;
     padding: 5px;
@@ -206,6 +207,7 @@ text-transform: uppercase;
     color: var(--white);
     text-transform: uppercase;
     font-family: sans-serif;
+
   }
 
   footer{
